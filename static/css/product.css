@@ -1,0 +1,520 @@
+/*-------------------------------
+-------------Layout--------------
+-------------------------------*/
+
+#rotrike_splash {
+height: 420px;
+text-align: center;
+margin: 0 auto;
+background: url("../img/rotrike_splash.png") center center no-repeat; }
+#rochair_splash {
+height: 420px;
+text-align: center;
+margin: 0 auto;
+background: url("../img/rochair_splash.png") center center no-repeat; }
+#roscooter_splash {
+height: 420px;
+text-align: center;
+margin: 0 auto;
+background: url("../img/roscooter_splash.png") 0px 0px no-repeat; }
+
+
+#store_splash {
+height: 220px;
+text-align: center;
+margin: 0 auto;
+background: url("../img/100_8691_blue_red_splash.png") center center no-repeat; }
+
+#reps_splash {
+height: 220px;
+text-align: center;
+margin: 0 auto;
+background: url("../img/reps_splash.png") center center no-repeat; }
+
+#rowheel_splash {
+height: 360px;
+text-align: center;
+margin: 0 auto;
+background: url("../img/rowheel_splash.png") center center no-repeat; }
+
+#resellers_splash {
+height: 220px;
+text-align: center;
+margin: 0 auto;
+background: url("../img/resellers_splash.png") center center no-repeat; }
+
+#armrests1_splash {
+height: 600px;
+text-align: center;
+margin: 0 auto;
+background: url("../img/armrests_1_splash.png") center center no-repeat; }
+
+#armrests2_splash {
+height: 600px;
+text-align: center;
+margin: 0 auto;
+background: url("../img/armrests_2_splash.png") center center no-repeat; }
+
+#armrests3_splash {
+height: 600px;
+text-align: center;
+margin: 0 auto;
+background: url("../img/armrests_3_splash.png") center center no-repeat; }
+
+	#features_splash {
+		height: 400px;
+		position: relative;
+		background: url("../img/features_splash_rt.png") center center no-repeat; text-align: center;}
+		
+	#features_splash_rc {
+		height: 400px;
+		position: relative;
+		background: url("../img/features_splash_rc.png") center center no-repeat; text-align: center;}
+		
+    #features_splash_rs {
+    	height: 400px;
+    	position: relative;
+    	background: url("../img/features_splash_rs.png") center center no-repeat; text-align: center;}
+
+
+
+
+
+
+		
+   
+		#D02 { position: absolute; bottom: 0; left: 5px; }
+		#X01 { position: absolute; bottom: 0; left: 0px; }
+		#shirt { position: absolute; bottom: 0; left: 0; }
+		#glove { position: absolute; bottom: 0; right: 30px; }
+		#biker { position: absolute; bottom: 0; right: 0; }
+		#maneuverable { position: absolute; bottom: 0; left: 0; }
+		img#compatible { position: absolute; bottom: 5px; right: 30px; }
+		#rearwheel { position: absolute; bottom: 0; right: 0; }
+
+
+	.rotrike_index, .rotrike_features, .rotrike_compare, .rotrike_techspecs {
+		min-height: 150px;
+		position: relative;
+		clear: both;
+		text-align: center; }
+	.rotrike_index { 
+		margin: 0 auto;
+		border-top: 1px solid #aaa; 
+		background: #fff; color: #000; clear: both;}
+
+/*  Hey, Michael! The top border of the Rotrike boxes is below. */
+	.rotrike_features {	
+		border-top: 1px solid #aaa;
+		background: #fff; color: #000; }
+/*---------------------------------------------*/		
+		
+		
+		
+	.rotrike_techspecs {	
+		border-top: 1px solid #aaa;
+		background: #fff; color: #000; }
+	
+	.rotrike_index .butt { 
+	position: absolute; bottom: -9px; left: -1px; 
+	width: 950px; height: 10px;
+	background: url("../img/rotrike_butt.png"); }
+
+	.rotrike_features .butt, .rotrike_compare .butt, .rotrike_techspecs .butt { 
+	position: absolute; bottom: -9px; left: -1px; 
+	width: 950px; height: 10px;
+	background: url("../img/whitebutt.png"); }
+
+
+
+/*-------------------------------
+--------Text Formatting----------
+-------------------------------*/
+	
+	.rotrike_index h1, .rotrike_features h1, .rotrike_techspecs h1 {
+	margin: 0; padding: 45px 25px 10px;
+	font-size: 20pt; font-weight: 600;
+	text-align: left; }
+	
+	.rotrike_index p, .rotrike_features p {
+	font-size: 12pt; text-align: left;
+	padding: 0px 25px 25px; margin: 0;}
+	.rotrike_index p { color: #666; }
+	.rotrike_features p { color: #666; }
+	.rotrike_features em strong_rt { color: #719A05; font-weight: bold; }
+	.rotrike_features em strong_rc { color: #bb5bac; font-weight: bold; }
+	.rotrike_features em strong_rs { color: #00aeef; font-weight: bold; }
+	
+	.rotrike_index ul, .rotrike_features ul { text-align: left; font-size: 12pt; color: #666;}
+
+
+	#adjustment_box ol li em { font-style: normal; color: #719A05; font-weight: bold; }
+
+	.rotrike_techspecs ul { color: #666; text-align: left;}
+	
+/*-------------------------------
+-----------Features--------------
+-------------------------------*/
+
+	#top_down_rt { 
+	height: 758px; position: relative; 
+	text-align: left; font-size: 11pt; color: #000;
+	background: url("../img/top_down_rt.jpg") no-repeat #fff; 
+	border-bottom: none; }
+	
+	#top_down_rc { 
+	height: 758px; position: relative; 
+	text-align: left; font-size: 11pt; color: #000;
+	background: url("../img/top_down_rc.jpg") no-repeat #fff; 
+	border-bottom: none; }
+	
+	#top_down_rs { 
+	height: 758px; position: relative; 
+	text-align: left; font-size: 11pt; color: #000;
+	background: url("../img/top_down_rs.jpg") no-repeat #fff; 
+	border-bottom: none; }
+	
+	.rotrike_index .left, .rotrike_features .left {
+	float: left; padding: 15px; }
+	.rotrike_index .right, .rotrike_features .right {
+	float: right; padding: 15px; }
+	
+	.rotrike_index .box40, .rotrike_features .box40 { width: 40%; float: left; text-align: left; }
+	.rotrike_index .box50, .rotrike_features .box50 { width: 50%; float: left; text-align: left; }
+	.rotrike_index .box59, .rotrike_features .box59 { width: 59%; float: left; text-align: left; }
+	.rotrike_index .box66, .rotrike_features .box66 { width: 66%; float: left; text-align: left; }
+
+	#fiveup_drive #steering_halo { border-right: none; }
+
+	#transfer_box { clear: both; height: 361px;}
+	#shoulders_box {position: relative; height: 325px; background: #fff; color: #000; }
+	#shoulders_box h1 { font-size: 18pt; margin: 0; padding: 50px 200px 10px;}
+	#shoulders_box p { font-size: 12pt; margin: 0; padding: 5px 200px;}
+	#aligned_box { position: relative; background: #fff; }
+	#accessible_box { text-align: left; background: #fff ; }
+	#maneuverable_box { min-height: 300px; background: #fff; }
+	#compatible_box { position: relative; background: #fff ; min-height: 350px; }
+	#crossover_box { min-height: 375px; background: #fff; }
+	#drive_box { position: relative; background: #fff; height:413px;}
+	#strength_box { position: relative; background: #fff; }
+	#twelveup_box { position: relative; background: #fff; }
+	#rearwheel_box { min-height: 400px; position: relative; background: #fff ;}
+	#steering_box { position: relative; background: #fff; }
+	#skinny_box { position: relative; background: #fff ; }
+	#short_box { position: relative; background: #fff; height: 350px;}
+	#classy_box { position: relative; background: #fff; height: 277px;}
+	#incline_box { border-bottom: none; padding-bottom: 35px; background: #fff ; }
+	#incline_box img { padding-bottom: 20px; }
+	#pile_box { position: relative; padding-bottom: 20px; background: #fff ;}
+		#pile_box img { position: absolute; bottom: 15px; right: 20px; }
+	#pile_box h1, #pile_box p { padding-right: 470px; } 
+	.box33 img { margin: 0; padding: 20px 10px 0px; }
+	#drive_mode_box { min-height: 300px; margin: 0; padding: 0;}
+	#park_mode_box { min-height: 300px; margin: 0; padding: 0;}
+	
+	#adjustment_box { position: relative; min-height: 350px; border-bottom: none;}
+	#adjustment_box img { position: absolute; right: 30px; bottom: 20px;} 
+	#adjustment_box p { font-size: 11pt; margin: 0; padding: 5px 420px 5px 45px;}
+	#adjustment_box h1 { font-size: 14pt; margin: 0; padding: 80px 420px 5px 45px;}
+		
+		
+	.rotrike_content {
+		min-height: 150px;
+		position: relative;
+		border-bottom: 1px solid #bbb;
+		background: #fff;
+		clear: both;
+		text-align: center; } 
+	.rotrike_content .butt { 
+		position: absolute; bottom: -9px; left: -1px; 
+		width: 950px; height: 10px;
+		background: url("../img/rotrike_butt.png"); }
+	.rotrike_content .white_butt { 
+		position: absolute; bottom: -9px; left: -1px; 
+		width: 950px; height: 10px;
+		background: url("http://www.rotamobility.com/img/white_butt.png"); }
+	.rotrike_content .head { 
+		position: absolute; top: -9px; left: -1px; 
+		width: 950px; height: 10px;
+		background: url("../img/rotrike_head.png");}
+	.box20 { 
+		width: 175px; 
+		float: left; 
+		text-align: center; 
+		margin: 20px 5px 0px; }
+	.box25 {
+		margin: 0; padding: 0;
+		width: 25%; text-align: center;
+		float: left; }
+		h1 a:link, h1 a:visited { text-decoration: none; color: #777;}
+		h1 a:active, h1 a:hover { text-decoration: none; color: #444;}
+	
+	.box300 {
+			margin: 0; padding: 0;
+			width: 25%; text-align: center;
+			float: left; }
+			h1 a:link, h1 a:visited { text-decoration: none; color: #777;}
+			h1 a:active, h1 a:hover { text-decoration: none; color: #444;}	
+			
+	.box33 { 
+		width: 306px; 
+		float: left; 
+		text-align: center;
+		margin: 0px 4px 0px; }
+
+
+
+		/* Features 5-up boxes */
+
+			div#rowing img,
+			div#hubgear img,
+			div#steering img,
+			div#brakes img,
+			div#stirrup img
+				{ margin: 0; padding: 5px 0px 0px; border: 0; }
+
+			div#rowing h1,
+			div#hubgear h1,
+			div#steering h1,
+			div#brakes h1,
+			div#stirrup h1
+			 	{ text-align: center; font-size: 12pt; margin: 0; padding: 15px 0px 10px; }
+
+			div#rowing p,
+			div#hubgear p,
+			div#steering p,
+			div#brakes p,
+			div#stirrup p
+				{ text-align: center; font-size: 11pt; margin: 0; padding: 0px 15px;}
+
+		div#flat p,
+		div#incline p,
+		div#about p
+			{ text-align: left; font-size: 11pt; margin: 0; padding: 0px 20px 20px;}
+
+		div#flat h2,
+		div#incline h2,
+		div#about h2
+			{ text-align: left; font-size: 15pt; font-weight: 600; margin: 0; padding: 10px 20px;}
+
+/*RoTrike------------------------------------------------*/
+
+			#top_down_rt em { 
+				font-size: 14pt; font-weight: bold; font-style: normal; text-align: left; color: #000;
+				 }
+			.rochair_content em strong { color: #bb5bac; }
+
+			div#top_down_rt #front_wheel { 
+				width: 240px; position: absolute; top: 20px; left: 60px; color: #666;}
+
+			div#top_down_rt #cable_steering { 
+				width: 200px; position: absolute; top: 220px; left: 60px; color: #666; }
+
+			div#top_down_rt #powertrain_clutch { 
+				width: 200px; position: absolute; top: 420px; left: 60px; color: #666; }
+
+			div#top_down_rt #rear_wheels { 
+				width: 200px; position: absolute; top: 620px; left: 60px; color: #666; }
+
+			div#top_down_rt #tray_mount { text-align: right;
+				width: 200px; position: absolute; top: 20px; right: 60px; color: #666; }
+
+			div#top_down_rt #grip_shift { text-align: right;
+				width: 200px; position: absolute; top: 220px; right: 60px; color: #666; }
+
+			div#top_down_rt #armrests { text-align: right;
+				width: 200px; position: absolute; top: 420px; right: 60px; color: #666; }
+
+			div#top_down_rt #adjustable_seat { text-align: right;
+				width: 200px; position: absolute; top: 620px; right: 60px; color: #666; }
+
+/*RoChair------------------------------------------------*/
+
+		   #top_down_rc em { 
+		   	font-size: 14pt; font-weight: bold; font-style: normal; text-align: left; color: #000;
+		   	 }
+		   .rochair_content em strong { color: #bb5bac; }
+           
+		   div#top_down_rc #front_wheel { 
+		   	width: 240px; position: absolute; top: 20px; left: 60px; color: #666;  }
+           
+		   div#top_down_rc #cable_steering { 
+		   	width: 200px; position: absolute; top: 220px; left: 60px; color: #666;  }
+           
+		   div#top_down_rc #powertrain_clutch { 
+		   	width: 200px; position: absolute; top: 420px; left: 60px; color: #666;  }
+           
+		   div#top_down_rc #rear_wheels { 
+		   	width: 200px; position: absolute; top: 620px; left: 60px; color: #666;  }
+           
+		   div#top_down_rc #tray_mount { text-align: right;
+		   	width: 200px; position: absolute; top: 20px; right: 60px; color: #666;  }
+           
+		   div#top_down_rc #grip_shift { text-align: right;
+		   	width: 200px; position: absolute; top: 220px; right: 60px; color: #666;  }
+           
+		   div#top_down_rc #armrests { text-align: right;
+		   	width: 200px; position: absolute; top: 420px; right: 60px; color: #666;  }
+           
+		   div#top_down_rc #adjustable_seat { text-align: right;
+		   	width: 200px; position: absolute; top: 620px; right: 60px; color: #666;  }
+
+/*RoScooter------------------------------------------------*/
+
+			#top_down_rs em { 
+				font-size: 14pt; font-weight: bold; font-style: normal; text-align: left; color: #000;
+				 }
+			.rochair_content em strong { color: #bb5bac; }
+			
+			div#top_down_rs #front_wheel { 
+				width: 240px; position: absolute; top: 20px; left: 60px; color: #666;  }
+			
+			div#top_down_rs #cable_steering { 
+				width: 200px; position: absolute; top: 220px; left: 60px; color: #666;  }
+			
+			div#top_down_rs #powertrain_clutch { 
+				width: 200px; position: absolute; top: 420px; left: 60px; color: #666;  }
+			
+			div#top_down_rs #rear_wheels { 
+				width: 200px; position: absolute; top: 620px; left: 60px; color: #666;  }
+			
+			div#top_down_rs #tray_mount { text-align: right;
+				width: 200px; position: absolute; top: 20px; right: 60px; color: #666;  }
+			
+			div#top_down_rs #grip_shift { text-align: right;
+				width: 200px; position: absolute; top: 220px; right: 60px; color: #666;  }
+			
+			div#top_down_rs #armrests { text-align: right;
+				width: 200px; position: absolute; top: 420px; right: 60px; color: #666;  }
+			
+			div#top_down_rs #adjustable_seat { text-align: right;
+				width: 200px; position: absolute; top: 620px; right: 60px; color: #666;  }
+			
+
+			#drive_mode_box ul { padding-left: 550px; margin: 0;}
+			#drive_mode_box h1 { padding: 0px 0px 10px 530px; margin: 0;}
+
+	
+			#onetoone { padding-top: 60px; padding-left: 60px; }
+			#twotoone { padding-top: 60px; padding-right: 60px; }
+			#twelveup { padding-top: 40px; }
+			#turning { padding: 50px 100px; }
+
+			#fiveup {border-bottom: none; padding-bottom: 20px;}
+			#fiveup_drive_img { height: 466px; position: relative; border-bottom: none;}
+			#fiveup_drive { background: #fff; padding-top: 40px;}
+			#fiveup_drive .box20 { 
+				width: 172px; height: 200px;
+				margin: 0px;
+				padding: 5px 8px 0px; 
+				border-right: 1px solid #bbb;}
+			#fiveup_drive h1 { font-size: 13pt; margin: 0; padding: 20px 5px 3px; }
+			#fiveup_drive p { font-size: 11pt; margin: 0px 0px 35px; padding: 3px 5px; }
+
+			#row_to_go_box, #safety_box, #park_mode_box, #drive_mode_box { border-bottom: none; }
+			#row_to_go_box p { font-size: 12pt; }
+			#row_to_go_box { padding-top: 50px; }
+			#row_to_go_box img { padding-right: 50px }
+			#park_mode_box h1, #drive_mode_box h1, #row_to_go_box h1 { font-size: 14pt; padding-top: 60px;}
+			#park_mode_box h1 { padding-left: 100px; margin: 0;}
+			#park_mode_box ul { padding-left: 120px;  margin: 0;}
+			#park_mode_box ul li { padding-bottom: 7px;  margin: 0;}
+			#drive_mode_box ul li { padding-bottom: 7px; }
+			#drive_mode_box img { position: absolute; left: 50px; top: 25px; }
+			#park_mode_box img { position: absolute; right: 60px; top: 25px; }
+			#safety_box { padding-bottom: 25px; padding-top: 30px;}
+			#safety_box h1 { padding-left: 430px; text-align: left; font-size: 14pt; }
+			#safety_box p { padding: 0px 0px 0px 430px; margin: 0;text-align: left; font-size: 12pt; }
+			#safety_box ul { padding-left: 450px; text-align: left; font-size: 12pt; color: #555; line-height: 1.6em;}
+			#safety_box img { padding-left: 100px; }
+
+			#included_box { position: relative; min-height: 350px;}
+			#included_box img { position: absolute; bottom: 5px; left: 25px; } 
+
+			#techspecs_box {border-top: 0px solid;}
+			#techspecs_box h1 { margin: 0px; padding: 20px 30px 20px; font-size: 16pt; color: #000;}
+			#techspecs_box .box33 { padding-top: 20px; }
+			#techspecs_box .box33 h1 { font-size: 13pt; margin: 0; padding: 0px 30px 10px; }
+			#techspecs_box .box33 p { font-size: 11pt; margin: 0; padding: 0; }
+			#techspecs_box .box33 ul { font-size: 11pt; margin: 0; padding: 0px 50px 50px; }
+			#rt_techspecs_threeup { background: url("../img/techspecs_rt.jpg"); height: 309px;}
+			#rc_techspecs_threeup { background: url("../img/techspecs_rc.jpg"); height: 309px;}
+			#rs_techspecs_threeup { background: url("../img/techspecs_rs.jpg"); height: 309px;}
+			
+			
+
+			#included_box h1 { padding-left: 40px; }
+			#included_box ul { padding-left: 60px; font-size: 11pt;}
+
+			#strength_box h1, #strength_box p { text-align: center; }
+
+/*RoTrike------------------------------------------------*/
+			#adjustment_box { position: relative; min-height: 350px; border-bottom: none;}
+			#adjustment_box img { position: absolute; right: 30px; bottom: 20px;} 
+			#adjustment_box p { font-size: 12pt; margin: 0; padding: 5px 420px 5px 45px;}
+			#adjustment_box h1 { font-size: 14pt; margin: 0; padding: 80px 420px 5px 45px;}
+			#adjustment_box ol { 
+				margin: 0; padding: 5px 420px 10px 45px;
+				font-weight: normal; text-align: left;
+				color: #666;
+				font-size: 12pt;
+				line-height: 1.6em;
+				list-style-type: none; }
+			#adjustment_box ol li em { font-style: normal; color: #719A05; font-weight: bold; }
+/*RoChair------------------------------------------------*/
+			#adjustment_box_rc { position: relative; min-height: 350px; border-bottom: none;}
+			#adjustment_box_rc img { position: absolute; right: 30px; bottom: 20px;} 
+			#adjustment_box_rc p { font-size: 11pt; margin: 0; padding: 5px 420px 5px 45px;}
+			#adjustment_box_rc h1 { font-size: 14pt; margin: 0; padding: 80px 420px 5px 45px;}
+			#adjustment_box_rc ol { 
+				margin: 0; padding: 5px 420px 10px 45px;
+				font-weight: normal; text-align: left;
+				color: #666;
+				font-size: 12pt;
+				line-height: 1.6em;
+				list-style-type: none; }
+			#adjustment_box_rc ol li em { font-style: normal; color: #bb5bac; font-weight: bold; }
+/*RoScooter------------------------------------------------*/
+			#adjustment_box_rs { position: relative; min-height: 350px; border-bottom: none;}
+			#adjustment_box_rs img { position: absolute; right: 30px; bottom: 20px;} 
+			#adjustment_box_rs p { font-size: 12pt; margin: 0; padding: 5px 420px 5px 45px;}
+			#adjustment_box_rs h1 { font-size: 14pt; margin: 0; padding: 80px 420px 5px 45px;}
+			#adjustment_box_rs ol { 
+				margin: 0; padding: 5px 420px 10px 45px;
+				font-weight: normal; text-align: left;
+				color: #666;
+				font-size: 12pt;
+				line-height: 1.6em;
+				list-style-type: none; }
+			#adjustment_box_rs ol li em { font-style: normal; color: blue; font-weight: bold; }
+
+
+			#accessory_box { position: relative; min-height: 350px; }
+			#accessory_box img { position: absolute; left: 30px; bottom: 20px; }
+			#accessory_box h1 { margin:0; padding: 70px 25px 10px 450px; font-size: 14pt;}
+			#accessory_box p { margin:0; padding: 5px 25px 5px 450px; font-size: 12pt;}
+
+
+
+			#choose_box { border-top: none; }
+			#choose_box .left { width: 33%; margin: 0; padding: 120px 0px 50px; float: left; text-align: left;
+				background: url("../img/compare_rt.png") no-repeat 37px 20px;}
+			#choose_box .line { width: 1px; height: 350px; background: #bbb; float: left;}
+			#choose_box .middle { width: 33%; margin: 0; padding: 120px 0px 50px; float: left; text-align: left;
+				background: url("../img/compare_rc.png") no-repeat 40px 20px;}
+			#choose_box .right { width: 33%; margin: 0; padding: 120px 0px 50px; float: left; text-align: left;
+				background: url("../img/compare_rs.png") no-repeat 42px 20px;}
+
+			#choose_box h1 { margin: 0px; padding: 40px 95px 40px; font-weight: bold; font-size: 15pt;}
+			#choose_box .left h2 { margin: 0px; padding: 20px 40px 0px; font-size: 13pt; font-weight: normal;}
+			#choose_box .left ol, #choose_box .left ul { color: #777;
+				margin: 0px; padding: 0px 40px 20px 60px; font-size: 11pt; }
+			#choose_box .right h2, #choose_box .middle h2 { margin: 0px; padding: 20px 70px 0px 40px; font-size: 13pt; font-weight: normal;}
+			#choose_box .right ol, #choose_box .right ul, #choose_box .middle ol, #choose_box .middle ul { color: #777;
+				margin: 0px; padding: 0px 40px 20px 60px; font-size: 11pt; }
+	
+	
+
+
+.rotrike_content h1 {
+	color: #fff; }

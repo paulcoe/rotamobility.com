@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>KeyShotVR</title>
+<script language="JavaScript" type="text/javascript" src="RoChair/files/KeyShotVR.js">
+</script>
+<script language="JavaScript" type="text/javascript">
+<!--
+
+var keyshotVR;
+
+function initKeyShotVR()
+{
+	var nameOfDiv = "KeyShotVR_RC";
+	var folderName = "RoChair";
+	var imageWidth = 960;
+	var imageHeight = 489;
+	var backgroundColor = "#000000";
+	var uCount = 21;
+	var vCount = 1;
+	var uWrap = true;
+	var vWrap = false;
+	var uMouseSensitivity = -0.058333;
+	var vMouseSensitivity = 1.000000;
+	var uStartIndex = 11;
+	var vStartIndex = 0;
+	var minZoom = 1.000000;
+	var maxZoom = 1.000000;
+	var rotationDamping = 0.960000;
+	var windowResizable = false;
+	var enableLOD = false;
+	var addResizableGUIButton = false;
+	var addPlayGUIButton = false;
+	keyshotVR = new keyshotVR(nameOfDiv,folderName,imageWidth,imageHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,windowResizable,enableLOD,addResizableGUIButton,addPlayGUIButton);
+}
+
+// -->
+</script>
+</head>
+<body oncontextmenu="return false;" onload="initKeyShotVR();" style="margin: 0; padding: 0;">
+<div id="KeyShotVR_RC" style="width:960px;height:489px;">
+</div> 
+</body>
+</html>

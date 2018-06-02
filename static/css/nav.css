@@ -1,0 +1,111 @@
+/* Anchor Behavior */
+ul#nav a:hover {text-decoration: none; color: white;}
+
+/*
+Size, placement, and taming of navigation ul
+*/
+ul#nav {
+	width: 960px; height: 50px;
+	margin: 0; padding: 0;
+	list-style: none;
+	position: relative;
+	background: black; }
+	
+ul#nav li {
+	position: absolute;
+	margin: 0; padding: 0;
+	list-style: none;
+	text-align: center;
+	border-right: 1px solid white; }
+	
+ul#nav li, ul#nav a { height: 50px; display: block; color: white;}
+
+/*
+Width and placement of nav buttons
+*/
+li#index { 
+	left: 0; width: 134px; }
+li#roscooter { 
+	left: 135px; width: 117px; }
+li#rochair { 
+	left: 253px; width: 117px; }
+li#rotrike { 
+	left: 371px; width: 117px; }
+li#store { 
+	left: 489px; width: 117px; }
+li#why-row { 
+	left: 607px; width: 117px; }
+li#news  { 
+	left: 725px; width: 117px; }
+li#support { 
+	left: 843px; width: 117px; }
+
+/*
+Style for current nav button
+*/
+li#index.current { 
+	background: #666666 }
+li#roscooter.current { 
+	background: #666666 }
+li#rochair.current { 
+	background: #666666 }
+li#rotrike.current { 
+	background: #666666 }
+li#store.current { 
+	background: #666666 }
+li#why-row.current { 
+	background: #666666 }
+li#news.current { 
+	background: #666666 }
+li#support.current { 
+	background: #666666 }
+	
+/* 
+Hover behavior for nav buttons 
+*/
+li#index a:hover { 
+	background: #979797; }
+li#roscooter a:hover { 
+	background: #979797; }
+li#rochair a:hover { 
+	background: #979797; }
+li#rotrike a:hover { 
+	background: #979797; }
+li#store a:hover { 
+	background: #979797; }
+li#why-row a:hover { 
+	background: #979797; }
+li#news a:hover { 
+	background: #979797; }
+li#support a:hover { 
+	background: #979797; }
+	
+ /*
+ Hover behavior for current nav button
+ */
+ li#index.current a:hover { 
+ 	background: #979797; }
+ li#roscooter.current a:hover { 
+ 	background: #979797; }
+ li#rochair.current a:hover { 
+ 	background: #979797; }
+ li#rotrike.current a:hover { 
+ 	background: #979797; }
+ li#store.current a:hover { 
+ 	background: #979797; }
+ li#why-row.current a:hover { 
+ 	background: #979797; }
+ li#news.current a:hover { 
+ 	background: #979797; }
+ li#support.current a:hover { 
+ 	background: #979797; }
+
+ /*
+ Background behavior for nav button
+ */
+ul#nav li#index a { background: #000 url('../img/navbar_index.png') 0px 0px;}
+ul#nav li#index a:hover { background: #000 url('../img/navbar_index.png') 0px -50px;}
+
+
+
+
